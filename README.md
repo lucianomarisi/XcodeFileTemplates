@@ -13,6 +13,10 @@ Useful Xcode file templates for day to day use.
 - **[Swift Nimble Test file](Swift Nimble Test File.xctemplate/XCTestCaseTabs/___FILEBASENAME___.swift)** containing all of **Swift Test File** and:
 	- An import for [Nimble](https://github.com/Quick/Nimble)
 
+- **[Swift Snapshot Test file](Swift Snapshot Test File.xctemplate/XCTestCaseTabs/___FILEBASENAME___.swift)** containing all of **Swift Test File** and:
+	- An import for [FBSnapshotTestCase](https://github.com/facebookarchive/ios-snapshot-test-case)
+	- Test class inherits from `FBSnapshotTestCase`
+	- `setUp` include `recordMode = true` 
 	
 ## Installation
 
